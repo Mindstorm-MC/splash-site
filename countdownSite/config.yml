@@ -1,0 +1,8 @@
+tunnel: mindstormgames
+credentials-file: C:\Users\SparePC\.cloudflared\83ecb877-89cb-4e6c-bf6d-4ab125093b9b.json
+
+ingress:
+  - hostname: mindstormgames.com
+    service: http://localhost:3000
+
+  - service: http_status:404
