@@ -157,11 +157,11 @@ p {
   }
 
   h3 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   
 }
@@ -176,16 +176,16 @@ p {
 @media (max-width: 768px) {
 
   h1 {
-    font-size: clamp(3rem, 2.5rem, 2rem);
+    font-size: clamp(2.25rem, 2rem, 2rem);
     padding: 1rem 0;
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 
     margin: 1rem 0 0 0;
     padding: 1rem 0;
